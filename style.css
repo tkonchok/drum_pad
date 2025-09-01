@@ -34,7 +34,6 @@ h1 {
   color: #00ffa6;
 }
 
-/* Pad grid layout */
 .pad-grid {
   display: grid;
   grid-template-columns: repeat(4, 100px);
@@ -44,7 +43,6 @@ h1 {
   justify-content: center;
 }
 
-/* Drum pad buttons */
 .pad {
   background-color: #222;
   border: none;
@@ -70,4 +68,9 @@ h1 {
   color: black;
   box-shadow: 0 0 20px #00f2ff;
   transform: scale(1.05);
+}
+
+.pad.dragging {
+  background-color: #444;
+  border: 2px dashed #00f2ff;
 }
