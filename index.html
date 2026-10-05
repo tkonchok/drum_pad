@@ -1,40 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel = "stylesheet" href="style.css">
-        <script src = "script.js" defer></script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-
-        <title>DrumPad</title>
-    </head>
-
-    <body>
-    <header>
-           <div class="toolbar"></div>
-    </header>
-    <main>
-
-    </main>
-    <h1>Drum Pad</h1>
-    <div class="pad-grid">
-    <button class="pad" data-sound="KICK.wav" data-key="Q">Q</button>
-    <button class="pad" data-sound="CLAP.wav" data-key="W">W</button>
-    <button class="pad" data-sound="SNARE.wav" data-key="E">E</button>
-    <button class="pad" data-sound="HiHat.wav" data-key="R">R</button>
-    <button class="pad" data-sound="OH.wav" data-key="A">A</button>
-    <button class="pad" data-sound="808.wav" data-key="S">S</button>
-    <button class="pad" data-sound="PERC1.wav" data-key="D">D</button>
-    <button class="pad" data-sound="Congo.wav" data-key="F">F</button>
-    <button class="pad" data-sound="triangle.wav" data-key="Z">Z</button>
-    <button class="pad" data-sound="Stomp.wav" data-key="X">X</button>
-    <button class="pad" data-sound="Scratch.wav" data-key="C">C</button>
-    <button class="pad" data-sound="808_2.wav" data-key="V">V</button>
-    <button class="pad" data-sound="ride.wav" data-key="T">T</button>
-    <button class="pad" data-sound="mobcrash.wav" data-key="Y">Y</button>
-    <button class="pad" data-sound="BDSplat.wav" data-key="U">U</button>
-    <button class="pad" data-sound="snap.wav" data-key="I">I</button>
-    </div>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101211" />
+    <meta
+      name="description"
+      content="Chopper: a browser sampler for slicing sounds, playing pads, and building loops."
+    />
+    <title>Chopper · Slice something good</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
-    
